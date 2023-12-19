@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document 3</title>
+    <style>
+        .img-intext{
+            width: 50px;
+            height: 60px;
+        }
+
+        .vermelho{
+            font-size: 24px;
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <h1>cabeçalho</h1>
-    <p><b>ipsum</b> ,<strong>dolor</strong> <i>amet</i>  <em>consectetur</em>, adipisicing elit. Quibusdam, corporis excepturi modi, ut, ad placeat neque reiciendis nostrum ducimus quidem fugit blanditiis sint nulla. Amet tempora quasi architecto delectus fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cum amet commodi ad quis dolore, et accusantium quaerat! Perspiciatis pariatur quisquam magni, libero recusandae at rerum alias quasi modi ratione!</p>
+    <p><b>ipsum</b> ,<strong>dolor</strong> <i>amet</i>  <em>consectetur</em>, adipisicing elit. Quibusdam, corporis excepturi modi, ut, ad placeat neque reiciendis nostrum ducimus quidem fugit blanditiis sint <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" target="_blank">nulla</a>. Amet tempora quasi architecto delectus fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cum amet commodi ad quis dolore, et accusantium quaerat! Perspiciatis pariatur quisquam magni, libero recusandae at rerum alias quasi modi ratione!
+    <img class="img-intext" src="https://www.mozillaphilippines.org/wp-content/uploads/2016/04/mdn-logo-dino-head.png" alt="Logo da MDN">
+    <span class="vermelho">ipsum  dolor sit amet consectetur adipisicing elit. Voluptatibus sed molestias neque eaque</span>. Recusandae ducimus quidem praesentium temporibus libero. Hic est quam sint fugiat. Cupiditate quibusdam quod porro ullam. Earum.</p>
+<hr>
+    <pre><code> class Carro{
+
+        constructor(valor1, valor2, valor3){
+            this.marca = valor1;
+            this.modelo = valor2;
+                this.ano = valor3;
+        }
+        buzina(){
+                return this.modelo + " buzinou: Biiiiiiiiiiiiiii";
+        }
+    }
+        
+    const uno = new Carro("Fiat", "uno", 2001);
+    const gol = new Carro("volkswagen", "gol", 2013)
+    console.log(uno.buzina());
+    console.log(gol.buzina());
+    gol.ano = 2014;
+       console.log(gol)        
+        </code>
+    </pre>
+    <div class="vermelho">Eu sou um bloco</div>
 </body>
 </html>
